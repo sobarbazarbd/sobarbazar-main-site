@@ -590,7 +590,7 @@ const BannerTwo = () => {
                   </div>
                   <div className='banner-item-two__thumb position-absolute bottom-0'>
                     <img
-                      src='assets/images/thumbs/banner-two-img2.png'
+                      src='assets/images/thumbs/banner-two-img.png'
                       alt=''
                     />
                   </div>
