@@ -5,20 +5,25 @@ import BrandOne from "@/components/BrandOne";
 import DealsOne from "@/components/DealsOne";
 import DeliveryOne from "@/components/DeliveryOne";
 import FeatureOne from "@/components/FeatureOne";
+import FeatureThree from "@/components/FeatureThree";
 import FlashSalesOne from "@/components/FlashSalesOne";
 import FooterOne from "@/components/FooterOne";
 import HeaderOne from "@/components/HeaderOne";
 import HotDealsOne from "@/components/HotDealsOne";
 import NewArrivalOne from "@/components/NewArrivalOne";
+import NewArrivalThree from "@/components/NewArrivalThree";
 import NewsletterOne from "@/components/NewsletterOne";
 import OfferOne from "@/components/OfferOne";
 import OrganicOne from "@/components/OrganicOne";
 import ProductListOne from "@/components/ProductListOne";
 import PromotionalOne from "@/components/PromotionalOne";
+import PromotionalThree from "@/components/PromotionalThree";
 import RecommendedOne from "@/components/RecommendedOne";
 import ShippingOne from "@/components/ShippingOne";
 import ShortProductOne from "@/components/ShortProductOne";
+import TextSlider from "@/components/TextSlider";
 import TopVendorsOne from "@/components/TopVendorsOne";
+import TrendingOne from "@/components/TrendingOne";
 import ColorInit from "@/helper/ColorInit";
 import Preloader from "@/helper/Preloader";
 import ScrollToTopInit from "@/helper/ScrollToTopInit";
@@ -49,26 +54,37 @@ const page = () => {
 
       {/* FeatureOne */}
       <FeatureOne />
-
-    
-
+     
 
       {/* PromotionalOne */}
       <PromotionalOne />
 
       {/* FlashSalesOne */}
       <FlashSalesOne />
-       
+        {/* RecommendedOne */}
+      <RecommendedOne />
+      
+      {/* NewArrivalThree */}
+      <NewArrivalThree />
+      {/* TextSlider */}
+      <TextSlider />
+      {/* TrendingOne */}
+      <TrendingOne />
 
-      {/* ProductListOne */}
-      <ProductListOne />
+      
        <DealsOne />
+
+         {/* FeatureThree */}
+      <FeatureThree />
+
+    
+{/* PromotionalThree */}
+      <PromotionalThree />
 
       {/* OfferOne */}
       <OfferOne />
 
-      {/* RecommendedOne */}
-      <RecommendedOne />
+     
 
       {/* HotDealsOne */}
       <HotDealsOne />
