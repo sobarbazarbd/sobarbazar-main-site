@@ -2,6 +2,7 @@ import BannerOne from "@/components/BannerOne";
 import BestSellsOne from "@/components/BestSellsOne";
 import BottomFooter from "@/components/BottomFooter";
 import BrandOne from "@/components/BrandOne";
+import DealsOne from "@/components/DealsOne";
 import DeliveryOne from "@/components/DeliveryOne";
 import FeatureOne from "@/components/FeatureOne";
 import FlashSalesOne from "@/components/FlashSalesOne";
@@ -49,14 +50,19 @@ const page = () => {
       {/* FeatureOne */}
       <FeatureOne />
 
+    
+
+
       {/* PromotionalOne */}
       <PromotionalOne />
 
       {/* FlashSalesOne */}
       <FlashSalesOne />
+       
 
       {/* ProductListOne */}
       <ProductListOne />
+       <DealsOne />
 
       {/* OfferOne */}
       <OfferOne />
